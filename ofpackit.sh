@@ -56,7 +56,7 @@ fi
 
 echo "Installing Other Programs/Utilities...."
 sleep 5
-sudo eopkg install vlc gscan2pdf bleachbit gimp inkscape soundconverter pinta focuswriter spotify retroarch teamviewer
+sudo eopkg install tigervnc vlc gscan2pdf bleachbit gimp inkscape soundconverter pinta focuswriter spotify retroarch teamviewer
 sleep 5
 
 echo "Installing Theme Configuration Applications..."
