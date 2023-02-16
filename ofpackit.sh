@@ -34,7 +34,7 @@ sleep 1
 
 echo "Installing Command Line Utilities...."
 sleep 5
-sudo eopkg alpine aerc notmuch iftop iptraf mc vifm alsaequal alsamixer install ncmpcpp mpc mpd vim kitty cava neofetch htop cmatrix nmap cmus scrcpy yt-dlp pip glances cool-retro-term terminator ncdu adb feh ranger  
+sudo eopkg arp-scan alpine aerc notmuch iftop iptraf mc vifm alsaequal alsamixer install ncmpcpp mpc mpd vim kitty cava neofetch htop cmatrix nmap cmus scrcpy yt-dlp pip glances cool-retro-term terminator ncdu adb feh ranger  
 sleep 5
 
 echo "Setting up ranger..."

@@ -2,8 +2,9 @@
 
 cd ~/Backups/scripts
 
-git add -u
-git commit -m "Updated"
+git add *
+#git add -u
+git commit -u 
 
 git pull
 git push
