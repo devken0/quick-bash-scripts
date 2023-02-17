@@ -25,7 +25,7 @@ sleep 5
 
 echo "Installing Programs...."
 sleep 5
-sudo eopkg install simplenote geary virtualbox virt-manager shotcut kdenlive qbittorrent kdeconnect obs-studio dropbox brave qutebrowser discord telegram 
+sudo eopkg install simplenote thunderbird geary virtualbox virt-manager shotcut kdenlive qbittorrent kdeconnect obs-studio dropbox brave qutebrowser discord telegram 
 sleep 5
 
 echo "Setting up virt-manager..."
