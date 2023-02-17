@@ -17,6 +17,10 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirt -a mc 
 
+# installing 3rd party apps
+# 2 packages installed through solus-sc(software center)
+# gitkraken pycharm-ce
+
 # install packages from other sources
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 cd ~/Downloads
