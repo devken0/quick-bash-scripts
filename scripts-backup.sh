@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cp *.sh ~/Backups/scripts
 cd ~/Backups/scripts
 
 git add -u
