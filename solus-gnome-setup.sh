@@ -10,9 +10,14 @@
 #sudo eopkg rmf --purge hexchat libreoffice-common libreoffice-calc libreoffice-writer libreoffice-impress thunderbird system-config-printer onboard firefox gedit
 
 # install packages from official repo
-sudo eopkg install chrome-gnome-shell libreoffice-draw burp openjdk-17 filezilla gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers linux-lts-headers codeblocks thonny meld openssh-server gnome-screenshot
+sudo eopkg install chrome-gnome-shell libreoffice-draw virt-manager burp openjdk-17 filezilla gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers linux-lts-headers codeblocks thonny meld openssh-server gnome-screenshot
 sudo eopkg install -c system-devel
 #sudo eopkg install -c system-devel gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
+
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
+sudo systemctl status fstrim.timer
+sudo systemctl list-timers --all
 
 # setting up virt-manager
 sudo systemctl enable libvirtd
