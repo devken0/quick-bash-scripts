@@ -7,10 +7,10 @@ sudo eopkg up -y
 sudo eopkg install egl-wayland nvidia-glx-driver-common nvidia-glx-driver-current
 
 # remove packages
-sudo eopkg rmf --purge hexchat libreoffice-calc libreoffice-writer libreoffice-impress thunderbird system-config-printer onboard firefox gnome-screenshot gedit
+sudo eopkg rmf --purge hexchat libreoffice-calc libreoffice-writer libreoffice-impress thunderbird system-config-printer onboard firefox gedit
 
 # install packages from official repo
-sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc adb wget deja-dup timeshift vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect system-devel linux-current-headers linux-lts-headers codeblocks thonny netbeans meld openssh-server
+sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc adb wget deja-dup timeshift vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect system-devel linux-current-headers linux-lts-headers codeblocks thonny netbeans meld openssh-server gnome-screenshot
 
 # setting up virt-manager
 sudo systemctl enable libvirtd
