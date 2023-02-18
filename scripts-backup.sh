@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#git config user.name "Kozm"
+
 #cp *.sh ~/Repos/scripts
 cd ~/Repos/scripts
 

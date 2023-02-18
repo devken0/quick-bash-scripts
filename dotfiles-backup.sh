@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#git config user.name "Kozm"
+
 #cp ~/.config/i3/config ~/Backups/dotfiles
 #cp ~/.config/i3/mint-config ~/Backups/dotfiles
 #cp ~/.config/qutebrowser/config.py ~/Backups/dotfiles
