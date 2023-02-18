@@ -1,7 +1,7 @@
 #!/bin/sh
 
-cp *.sh ~/Backups/scripts
-cd ~/Backups/scripts
+#cp *.sh ~/Repos/scripts
+cd ~/Repos/scripts
 
 git add -u
 git commit -m "Updated script" 

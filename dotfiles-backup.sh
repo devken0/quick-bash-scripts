@@ -1,17 +1,17 @@
 #!/bin/sh
 
-cp ~/.config/i3/config ~/Backups/dotfiles
-cp ~/.config/i3/mint-config ~/Backups/dotfiles
-cp ~/.config/qutebrowser/config.py ~/Backups/dotfiles
-cp ~/.config/qutebrowser/quickmarks ~/Backups/dotfiles
-cp ~/.config/qutebrowser/bookmarks/urls ~/Backups/dotfiles
-cp ~/.bashrc ~/Backups/dotfiles
-cp ~/.vimrc ~/Backups/dotfiles
-cp ~/.gtkrc-2.0 ~/Backups/dotfiles
-cp ~/.bash_history ~/Backups/dotfiles
-cp ~/.config/picom.conf ~/Backups/dotfiles
+#cp ~/.config/i3/config ~/Backups/dotfiles
+#cp ~/.config/i3/mint-config ~/Backups/dotfiles
+#cp ~/.config/qutebrowser/config.py ~/Backups/dotfiles
+#cp ~/.config/qutebrowser/quickmarks ~/Backups/dotfiles
+#cp ~/.config/qutebrowser/bookmarks/urls ~/Backups/dotfiles
+cp ~/.bashrc ~/Repos/dotfiles
+#cp ~/.vimrc ~/Backups/dotfiles
+#cp ~/.gtkrc-2.0 ~/Backups/dotfiles
+#cp ~/.bash_history ~/Backups/dotfiles
+#cp ~/.config/picom.conf ~/Backups/dotfiles
 
-cd ~/Backups/dotfiles
+cd ~/Repos/dotfiles
 
 git add config
 git commit -m "my i3wm configuration file"
