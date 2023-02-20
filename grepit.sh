@@ -1,3 +1,3 @@
 #!/bin/sh
 
-eopkg list installed | grep $1
+eopkg list-installed | grep $1
