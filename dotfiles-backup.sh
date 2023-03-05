@@ -1,44 +1,96 @@
 #!/bin/sh
-
-#git config user.name "Kozm"
-
-#cp ~/.config/i3/config ~/Backups/dotfiles
-#cp ~/.config/i3/mint-config ~/Backups/dotfiles
-#cp ~/.config/qutebrowser/config.py ~/Backups/dotfiles
-#cp ~/.config/qutebrowser/quickmarks ~/Backups/dotfiles
-#cp ~/.config/qutebrowser/bookmarks/urls ~/Backups/dotfiles
-cp ~/.bashrc ~/Repos/dotfiles
-#cp ~/.vimrc ~/Repos/dotfiles
-#cp ~/.gtkrc-2.0 ~/Backups/dotfiles
-cp ~/.bash_history ~/Repos/dotfiles
-#cp ~/.config/picom.conf ~/Backups/dotfiles
-
+#
+#-----------------------------Go to Repository
 cd ~/Repos/dotfiles
+#-----------------------------Credentials
+#
+#git config user.name "kozm-git"
+#git config user.email "kennedyonipa@gmail.com"
+#
+#----------------------------Copying Files to Backup
+#
+cp ~/.bash_history ~/Repos/dotfiles
+#cp ~/.vimrc ~/Repos/dotfiles
+cp ~/.config/pavucontrol.ini ~/Repos/dotfiles
 
-#git add config
-#git commit -m "my i3wm configuration file"
-git add .bashrc
-git commit -m "my bashrc file"
-#git add .vimrc
-#git commit -m "my vimrc file"
-#git add .gtkrc-2.0
-#git commit -m "my themes configuration"
+cp ~/.bashrc arcolinux
+cp ~/.gtkrc-2.0 arcolinux
+cp ~/.config/alacritty/alacritty.yml arcolinux/.config/alacritty
+cp ~/.config/archlinux-logout/archlinux-logout.conf arcolinux/.config/i3 
+cp ~/.config/i3/launcher/rofi/colors.rasi arcolinux/.config/i3
+cp ~/.config/i3/launcher/rofi/launcher.rasi arcolinux/.config/i3
+cp ~/.config/i3/launcher/launcher.sh arcolinux/.config/i3
+cp ~/.config/i3/scripts/i3exit.sh arcolinux/.config/i3
+cp ~/.config/i3/scripts/picom-toggle.sh arcolinux/.config/i3
+cp ~/.config/i3/cheatsheet.md arcolinux/.config/i3
+cp ~/.config/i3/config arcolinux/.config/i3
+cp ~/.config/i3/i3status.conf arcolinux/.config/i3
+cp ~/.config/i3/picom.conf arcolinux/.config
+
+#--------------------------------Stage and Commit
+#
+##----------general dotfiles
 git add .bash_history
 git commit -m "my shell history"
-#git add picom.conf
-#git commit -m "my picom configuration"
-#git add config.py
-#git commit -m "my qutebrowser configuration"
-#git add quickmarks
-#git commit -m "my qutebrowser quickmarks"
-#git add urls
-#git commit -m "my qutebrowser bookmarks"
-#git add mint-config
-#git commit -m "linux mint i3 configuration"
+#git add .vimrc
+#git commit -m "my vimrc file"
+git add pavucontrol.ini
+git commit -m "my pavucontrol config"
 
-#git add *
-#git add -u
-#git commit -m "Updated script" 
+##---------current setup dotfiles
+git add arcolinux/.bashrc
+git commit -m "my arcolinux bashrc file"
+git add arcolinux/.gtkrc-2.0
+git commit -m "my arcolinux themes configuration"
+git add arcolinux/.config/alacritty/alacritty.yml 
+git commit -m "arcolinux alacritty config"
+git add arcolinux/.config/i3/archlinux-logout.conf
+git commit -m "arcolinux logout config"
+git add arcolinux/.config/i3/colors.rasi
+git commit -m "arcolinux rofi colors"
+git add arcolinux/.config/i3/launcher.rasi
+git commit -m "arcolinux rofi launcher config"
+git add arcolinux/.config/i3/launcher.sh
+git commit -m "arcolinux rofi launcher script"
+git add arcolinux/.config/i3/i3exit.sh
+git commit -m "arcolinux i3bar logout script"
+git add arcolinux/.config/i3/picom-toggle.sh 
+git commit -m "arcolinux picom script"
+git add arcolinux/.config/i3/cheatsheet.md 
+git commit -m "arcolinux-i3 cheatsheet"
+git add arcolinux/.config/i3/config 
+git commit -m "arcolinux-i3 configuration"
+git add arcolinux/.config/i3/i3status.conf 
+git commit -m "arcolinux-i3-status configuration"
+git add arcolinux/.config/picom.conf 
+git commit -m "arcolinux picom configuration"
 
+##----------old stage and commits
+git add mint/.config/i3/config
+git commit -m "linux mint i3 configuration"
+git add solus/.bashrc
+git commit -m "my solus bashrc file"
+git add solus/.gtkrc-2.0
+git commit -m "my solus themes configuration"
+git add solus/.config/i3/config 
+git commit -m "solus-i3 configuration"
+git add solus/.config/picom.conf 
+git commit -m "solus picom configuration"
+git add solus/.config/qutebrowser/config.py
+git commit -m "solus qutebrowser config"
+git add solus/.config/qutebrowser/quickmarks
+git commit -m "solus qutebrowser quickmarks"
+git add solus/.config/qutebrowser/urls
+git commit -m "solus qutebrowser bookmarks"
+
+#-------------------------------Pull Changes
+#
 git pull
+
+#-------------------------------Push Changes
+#
 git push
+
+#-------------------------------END
+echo "Done."
+read
