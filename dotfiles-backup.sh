@@ -93,4 +93,5 @@ git push
 
 #-------------------------------END
 echo "Done."
+echo "Press Enter"
 read
