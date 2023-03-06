@@ -66,23 +66,23 @@ git add arcolinux/.config/picom.conf
 git commit -m "arcolinux picom configuration"
 
 ##----------old stage and commits
-git add mint/.config/i3/config
-git commit -m "linux mint i3 configuration"
-git add solus/.bashrc
-git commit -m "my solus bashrc file"
-git add solus/.gtkrc-2.0
-git commit -m "my solus themes configuration"
-git add solus/.config/i3/config 
-git commit -m "solus-i3 configuration"
-git add solus/.config/picom.conf 
-git commit -m "solus picom configuration"
-git add solus/.config/qutebrowser/config.py
-git commit -m "solus qutebrowser config"
-git add solus/.config/qutebrowser/quickmarks
-git commit -m "solus qutebrowser quickmarks"
-git add solus/.config/qutebrowser/urls
-git commit -m "solus qutebrowser bookmarks"
-
+#git add mint/.config/i3/config
+#git commit -m "linux mint i3 configuration"
+#git add solus/.bashrc
+#git commit -m "my solus bashrc file"
+#git add solus/.gtkrc-2.0
+#git commit -m "my solus themes configuration"
+#git add solus/.config/i3/config 
+#git commit -m "solus-i3 configuration"
+#git add solus/.config/picom.conf 
+#git commit -m "solus picom configuration"
+#git add solus/.config/qutebrowser/config.py
+#git commit -m "solus qutebrowser config"
+#git add solus/.config/qutebrowser/quickmarks
+#git commit -m "solus qutebrowser quickmarks"
+#git add solus/.config/qutebrowser/urls
+#git commit -m "solus qutebrowser bookmarks"
+#
 #-------------------------------Pull Changes
 #
 git pull
