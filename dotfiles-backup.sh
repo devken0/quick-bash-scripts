@@ -24,6 +24,7 @@ cp ~/.config/i3/scripts/i3exit.sh arcolinux/.config/i3
 cp ~/.config/i3/scripts/picom-toggle.sh arcolinux/.config/i3
 cp ~/.config/i3/cheatsheet.md arcolinux/.config/i3
 cp ~/.config/i3/config arcolinux/.config/i3
+cp ~/.config/i3/config-keep arcolinux/.config/i3
 cp ~/.config/i3/i3status.conf arcolinux/.config/i3
 cp ~/.config/i3/picom.conf arcolinux/.config
 
@@ -60,6 +61,8 @@ git add arcolinux/.config/i3/cheatsheet.md
 git commit -m "arcolinux-i3 cheatsheet"
 git add arcolinux/.config/i3/config 
 git commit -m "arcolinux-i3 configuration"
+git add arcolinux/.config/i3/config-keep
+git commit -m "arcolinux-i3 ignored configurations"
 git add arcolinux/.config/i3/i3status.conf 
 git commit -m "arcolinux-i3-status configuration"
 git add arcolinux/.config/picom.conf 
