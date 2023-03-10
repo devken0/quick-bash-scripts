@@ -18,6 +18,6 @@ git pull
 git push
 
 #------------------------END
-echo "Done."
-echo "Press Enter"
-read
+#echo "Done."
+#echo "Press Enter"
+#read
