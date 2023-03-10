@@ -27,6 +27,7 @@ cp ~/.config/i3/config arcolinux/.config/i3
 cp ~/.config/i3/config-keep arcolinux/.config/i3
 cp ~/.config/i3/i3status.conf arcolinux/.config/i3
 cp ~/.config/i3/picom.conf arcolinux/.config
+cp ~/.config/i3/system-overview arcolinux/.config/i3
 
 #--------------------------------Stage and Commit
 #
@@ -67,6 +68,8 @@ git add arcolinux/.config/i3/i3status.conf
 git commit -m "arcolinux-i3-status configuration"
 git add arcolinux/.config/picom.conf 
 git commit -m "arcolinux picom configuration"
+git add arcolinux/.config/i3/system-overview
+git commit -m "arcolinux conky"
 
 ##----------old stage and commits
 #git add mint/.config/i3/config
