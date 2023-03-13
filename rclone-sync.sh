@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rclone sync ~/Archive tup:
+rclone sync -P ~/Archive/ tup:
