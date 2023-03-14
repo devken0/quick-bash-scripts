@@ -19,4 +19,4 @@
 adb devices
 
 #scrcpy -m 1024
-swallow scrcpy
+scrcpy
