@@ -1,5 +1,6 @@
 #!/bin/sh
 
+##### Through Network
 # open a port
 # adb tcpip 5555
 
@@ -13,6 +14,9 @@
 # adb usb
 
 # adb connect 192.168.1.2:5555
+# 
+######## Through USB
 adb devices
+
 #scrcpy -m 1024
-scrcpy
+swallow scrcpy
