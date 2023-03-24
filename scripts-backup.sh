@@ -6,6 +6,10 @@ cd ~/Repos/scripts
 #git config user.name "Kozm"
 #git config user.email "kennedyonipa@gmail.com"
 
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/github_rsa
+
 #-------------------------Stage and Commit
 git add -u
 git commit -m "Updated script" 

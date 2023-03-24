@@ -4,6 +4,10 @@
 cd ~/Repos/dotfiles
 #-----------------------------Credentials
 #
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/github_rsa
+#
 #git config user.name "kozm-git"
 #git config user.email "kennedyonipa@gmail.com"
 #
