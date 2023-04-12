@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "$(uptime -p)" ~/Repos/scripts/uptime
+echo "$(uptime -p)" > ~/Repos/scripts/uptime
