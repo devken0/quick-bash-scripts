@@ -16,6 +16,7 @@ ssh-add ~/.ssh/github_rsa
 cp ~/.bash_history ~/Repos/dotfiles
 #cp ~/.vimrc ~/Repos/dotfiles
 cp ~/.config/pavucontrol.ini ~/Repos/dotfiles
+cp /var/spool/cron/mc ./crontab
 
 cp ~/.bashrc arcolinux
 cp ~/.gtkrc-2.0 arcolinux
@@ -42,6 +43,8 @@ git commit -m "my shell history"
 #git commit -m "my vimrc file"
 git add pavucontrol.ini
 git commit -m "my pavucontrol config"
+git add crontab  
+git commit -m "my crontab"
 
 ##---------current setup dotfiles
 git add arcolinux/.bashrc
