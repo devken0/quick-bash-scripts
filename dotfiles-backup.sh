@@ -18,7 +18,7 @@ cp ~/.bash_history ~/Repos/dotfiles
 cp ~/.config/pavucontrol.ini ~/Repos/dotfiles
 cp /var/spool/cron/mc ./crontab
 cp -r ~/.ssh .
-cp ~/.config/rclone/rclone.conf .config/rclone
+cp ~/.config/rclone/rclone.conf ~/Repos/dotfiles/.config/rclone
 
 cp ~/.bashrc arcolinux
 cp ~/.gtkrc-2.0 arcolinux
