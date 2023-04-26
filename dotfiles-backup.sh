@@ -49,7 +49,7 @@ git add crontab
 git commit -m "my crontab"
 git add .ssh/* 
 git commit -m "my ssh-keys"
-git add .config/rclone.conf
+git add ~/Repos/dotfiles/.config/rclone.conf
 git commit -m "my rclone configuration"
 
 ##---------current setup dotfiles
