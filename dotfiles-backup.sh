@@ -18,7 +18,7 @@ cp ~/.bash_history ~/Repos/dotfiles
 cp ~/.config/pavucontrol.ini ~/Repos/dotfiles
 cp /var/spool/cron/mc ./crontab
 cp -r ~/.ssh .
-cp ~/.config/rclone/rclone.conf .config/rclone
+cp ~/.config/rclone/rclone.conf .
 
 cp ~/.bashrc arcolinux
 cp ~/.gtkrc-2.0 arcolinux
@@ -49,7 +49,7 @@ git add crontab
 git commit -m "my crontab"
 git add .ssh/* 
 git commit -m "my ssh-keys"
-git add ~/Repos/dotfiles/.config/rclone.conf
+git add rclone.conf
 git commit -m "my rclone configuration"
 
 ##---------current setup dotfiles
