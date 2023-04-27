@@ -19,7 +19,7 @@ git commit -m "Added script"
 
 #------------------------Pull and Push Changes
 git pull
-git push --set-upstream origin main
+git push 
 
 #------------------------END
 #echo "Done."
