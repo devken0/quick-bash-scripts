@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 #-----------------------------Go to Repository
-cd ~/Repos/dotfiles
+cd ~/repo/dotfiles
 #-----------------------------Credentials
 #
 eval "$(ssh-agent -s)"
@@ -13,9 +13,9 @@ ssh-add ~/.ssh/github_rsa
 #
 #----------------------------Copying Files to Backup
 #
-cp ~/.bash_history ~/Repos/dotfiles
-#cp ~/.vimrc ~/Repos/dotfiles
-cp ~/.config/pavucontrol.ini ~/Repos/dotfiles
+cp ~/.bash_history ~/repo/dotfiles
+#cp ~/.vimrc ~/repo/dotfiles
+cp ~/.config/pavucontrol.ini ~/repo/dotfiles
 cp /var/spool/cron/mc ./crontab
 cp -r ~/.ssh .
 cp ~/.config/rclone/rclone.conf .
