@@ -19,7 +19,7 @@ git commit -m "Added script"
 
 #------------------------Pull and Push Changes
 git pull
-git push 
+git push
 
 #------------------------END
 #echo "Done."
