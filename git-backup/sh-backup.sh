@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 #-------------------------Go to Repository 
-cd ~/repo/sh
+cd ~/Repos/sh
 #-------------------------Credentials
 #git config user.name "Kozm"
 #git config user.email "kennedyonipa@gmail.com"
