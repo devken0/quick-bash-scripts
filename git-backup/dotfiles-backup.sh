@@ -4,18 +4,18 @@
 cd ~/Repos/dotfiles
 #-----------------------------Credentials
 #
-eval "$(ssh-agent -s)"
+#eval "$(ssh-agent -s)"
 
-ssh-add ~/.ssh/github_rsa
+#ssh-add ~/.ssh/github_rsa
 #
 #git config user.name "kozm-git"
 #git config user.email "kennedyonipa@gmail.com"
 #
 #----------------------------Copying Files to Backup
 #
-cp ~/.bash_history ~/Repos/dotfiles
-cp ~/.vimrc ~/Repos/dotfiles
-cp ~/.config/pavucontrol.ini ~/Repos/dotfiles
+cp ~/.bash_history .
+cp ~/.vimrc .
+cp ~/.config/pavucontrol.ini .
 cp /var/spool/cron/mc ./crontab
 cp -r ~/.ssh .
 cp ~/.config/rclone/rclone.conf .
@@ -104,11 +104,17 @@ git commit -m "solus qutebrowser bookmarks"
 #
 #-------------------------------Pull Changes
 #
-git pull
+#git pull
 
 #-------------------------------Push Changes
 #
-git push
+#git push
+
+git branch -M main
+git remote add origin git@github.com:kozm-git/dotfiles.git
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github_rsa
+git push -u origin main
 
 #-------------------------------END
 #echo "Done."
