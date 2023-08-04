@@ -27,9 +27,9 @@ git commit -m "Added assembly file"
 
 #------------------------Pull and Push Changes
 
-git pull -u origin main
+git pull 
 #git push
-git push -u origin main
+git push 
 
 #------------------------END
 #echo "Done."
