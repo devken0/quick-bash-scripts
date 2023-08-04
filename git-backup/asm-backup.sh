@@ -2,13 +2,18 @@
 
 cd ~/Repos/asm
 
-#-------------------------Create New Repository
+#-------------------------First Run
 #
 #git init
+#git add * 
+#git commit -m "Added assembly files"
 #git branch -M main
-#git remote add origin https://github.com/kozm-git/py.git
+#git remote add origin git@github.com:kozm-git/asm.git
+#eval "$(ssh-agent -s)"
+#ssh-add ~/.ssh/github_rsa
+#git push -u origin main
 
-#-------------------------Credentials
+#-------------------------Credentials(Optional)
 #
 #git config user.name "Kozm"
 #git config user.email "kennedyonipa@gmail.com"
@@ -28,7 +33,6 @@ git commit -m "Added assembly file"
 #------------------------Pull and Push Changes
 
 git pull 
-#git push
 git push 
 
 #------------------------END
