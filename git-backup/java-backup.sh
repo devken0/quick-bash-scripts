@@ -1,14 +1,14 @@
 #!/bin/sh
 
-cd ~/Repos/asm
+cd ~/Repos/java
 
 #-------------------------First Run
 #
 #git init
 #git add * 
-#git commit -m "Added assembly files"
+#git commit -m "Added java files"
 #git branch -M main
-#git remote add origin git@github.com:kozm-git/asm.git
+#git remote add origin git@github.com:kozm-git/java.git
 #eval "$(ssh-agent -s)"
 #ssh-add ~/.ssh/github_rsa
 #git push -u origin main
@@ -25,10 +25,10 @@ ssh-add ~/.ssh/github_rsa
 #-------------------------Stage and Commit
 
 git add -u
-git commit -m "Updated assembly file" 
+git commit -m "Updated java file" 
 
 git add *
-git commit -m "Added assembly file"
+git commit -m "Added java file"
 
 #------------------------Pull and Push Changes
 
