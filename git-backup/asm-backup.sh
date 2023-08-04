@@ -1,8 +1,12 @@
 #!/bin/sh
-#
-#-------------------------Go to Repository 
 
 cd ~/Repos/asm
+
+#-------------------------Create New Repository
+#
+#git init
+#git branch -M main
+#git remote add origin https://github.com/kozm-git/py.git
 
 #-------------------------Credentials
 #
@@ -25,6 +29,7 @@ git commit -m "Added assembly file"
 
 git pull
 git push
+#git push -u origin main
 
 #------------------------END
 #echo "Done."
