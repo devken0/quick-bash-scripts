@@ -1,2 +1,2 @@
-# bash scripts for my linux system
+# My Everyday Linux System Scripts 
 
