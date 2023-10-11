@@ -1,2 +1,2 @@
-# Linux Scripts that I use
+# Linux scripts that I use
 
