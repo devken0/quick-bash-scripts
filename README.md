@@ -1,2 +1,2 @@
-# My Everyday Linux Scripts 
+Scripts that I use to work more efficiently in linux.
 
